@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+nav ul li:hover {
+    transform: scale(1.3);
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:darkslateblue ;
+    color: aliceblue;
+}
+a:hover {
+   color: aqua;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.about ul a {
+    color: black;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+li {
+    list-style: none;
+}
+p {
+    font-size: 20px;
+    color: aliceblue;
+}
+span {
+    font-weight: 900;
+    color:aqua;
+}
+.body {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:darkslategray;
+}
+.body img {
+    box-shadow: aqua 5px 5px 5px 5px;
+    height: 70vh;
+    border-radius: 500px;
+}
+.bxl-whatsapp {
+    font-size: 60px;
+    color: aliceblue;
+    position: absolute;
+    left: 180px;
+    top: 350px;
+   
+}
+.bxl-whatsapp:hover {
+    transform: scale(0.6);
+    background-color: aqua;
+    border-radius: 15px;
+}
+.bxl-instagram {
+    font-size: 60px;
+    color: aliceblue;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+   
+}
+.bxl-instagram:hover {
+    transform: scale(0.6);
+    background-color: aqua;
+    border-radius: 15px;
+}
+.bxl-facebook-square{
+    font-size: 60px;
+    color: aliceblue;
+    position: absolute;
+    left: 260px;
+    top: 350px;
+    
+}
+.bxl-facebook-square:hover {
+    transform: scale(0.6);
+    background-color: aqua;
+    border-radius: 15px;
+}
+.about ul li:hover {
+    transform: scale(0.7);
+}
+.about ul li {
+    position: absolute;
+    background-color: aqua;
+    box-shadow: gray 2px 2px 2px 2px;
+    border-radius: 10px;
+    padding: 5px;
+    left: 100px;
+    top: 460px;
+
+}

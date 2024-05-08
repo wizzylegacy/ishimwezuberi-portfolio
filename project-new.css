@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+nav ul li:hover {
+    transform: scale(1.2);
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:darkslateblue ;
+    color: aliceblue;
+}
+a:hover {
+    color: aqua;
+ }
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+ul {
+    display: flex;
+    gap: 20px;
+   
+}
+li {
+    list-style: none;
+    margin-left: 25px;
+}
+.body {
+    padding: 170px;
+    display: flex;
+    height: 100vh;
+    background-color:darkslategray;
+}
+.main1 {
+    height: 50vh;
+    width: 50%;
+    background-color: darkslateblue;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 100px;
+    color: aliceblue;
+}
+.main2 {
+    height: 50vh;
+    width: 50%;
+    background-color: darkslateblue;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 100px;
+    color: aliceblue;
+}
+.main3 {
+    height: 50vh;
+    width: 50%;
+    background-color: darkslateblue;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 100px;
+    color: aliceblue;
+    
+}
+.main1 h2 {
+    position: absolute; 
+    top: 189px;
+    left: 190px;
+}
+.main2 h2 {
+    position: absolute; 
+    top: 189px;
+    left: 500px;
+    margin-left: 100PX;
+}
+.main3 h2 {
+    position: absolute; 
+    top: 179px;
+    right: 450px;
+}
+.main1 p {
+    position: absolute; 
+    top: 290px;
+    left: 190px;
+}
+.main2 p {
+    position: absolute; 
+    top: 290px;
+    left:510px;
+    margin-left: 100PX;
+}
+.main3 p {
+    position: absolute; 
+    top: 290px;
+    right: 280px;
+}
+.main1 ul li {
+    position: absolute; 
+    top: 440px;
+    left: 290px;
+}
+.main2 ul li {
+    position: absolute; 
+    top: 440px;
+    left:619px;
+}
+.main3 ul li {
+    position: absolute; 
+    top: 440px;
+    right: 310px;
+}
+.main1 ul li:hover {
+    transform: scale(1.3);
+}
+.main1 ul li {
+    background-color: aqua;
+    color: black;
+    padding: 2px;
+    box-shadow: gray 3px 3px 3px 3px;
+    border-radius: 10px;
+}
+.main2 ul li:hover {
+    transform: scale(1.3);
+}
+.main2 ul li {
+    background-color: aqua;
+    color: black;
+    padding: 2px;
+    box-shadow: gray 3px 3px 3px 3px;
+    border-radius: 10px;
+}
+.main3 ul li:hover {
+    transform: scale(1.3);
+}
+.main3 ul li {
+    background-color: aqua;
+    color: black;
+    padding: 2px;
+    box-shadow: gray 3px 3px 3px 3px;
+    border-radius: 10px;
+}
+h1 {
+    color: aliceblue;
+    position: absolute;
+    right: 700px;
+    top: 80px;
+}
+span {
+    color: aqua;
+}
+
